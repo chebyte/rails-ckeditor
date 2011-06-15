@@ -16,11 +16,8 @@ SWFUpload version: 2.2.0.1 Core (http://swfupload.org)
 
 ===Rails 2.3.8
 
-Via gem:
-  config.gem 'ckeditor', '3.4.3'
-
 Via plugin
-  ./script/plugin install git://github.com/galetahub/rails-ckeditor.git
+  ./script/plugin install git://github.com/chebyte/rails-ckeditor.git
 
 Next step is generate ckeditor js files and configuration file
 Check "config/initializers/ckeditor.rb" for more configuration options:
@@ -45,11 +42,7 @@ In your environment:
 
 ===Rails 3.0.0
 
-  gem 'ckeditor', '3.4.2.pre'
-
-Or
-
-  gem 'ckeditor', :git => 'git://github.com/galetahub/rails-ckeditor.git', :branch => 'rails3'
+  gem 'ckeditor', :git => 'git://github.com/chebyte/rails-ckeditor.git', :branch => 'rails3'
 
 Next step is generate ckeditor js files and configuration file
 Check "config/initializers/ckeditor.rb" for more configuration options:
